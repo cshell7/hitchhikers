@@ -2087,7 +2087,6 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
 				width: 100%;
 			}
 
@@ -2496,7 +2495,8 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 100%;
+			max-width: 300px;
 		}
 
 /* Footer */
